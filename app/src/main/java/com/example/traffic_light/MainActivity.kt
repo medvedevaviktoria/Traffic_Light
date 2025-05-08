@@ -12,10 +12,6 @@ import com.example.traffic_light.enum.TrafficLight
 
 class MainActivity : AppCompatActivity() {
     lateinit var binding: ActivityMainBinding
-    //переменные для изображений
-    var image_circle_red:ImageView? = null
-    var image_circle_yellow:ImageView? = null
-    var image_circle_green:ImageView? = null
     //переменные для работы кода
     private var current_light = TrafficLight.RED //начинаем показывать цвета с красного
     private var lastWasGreen: Boolean = false //если true - последним цветом перед жёлтым был зелёный, если false - последним цветом перед жёлтым был красный
