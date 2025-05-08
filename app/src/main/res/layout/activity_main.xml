@@ -9,7 +9,7 @@
     tools:context=".MainActivity">
 
     <ImageView
-        android:id="@+id/image_circle_red"
+        android:id="@+id/imageCircleRed"
         android:layout_width="125dp"
         android:layout_height="125dp"
         android:layout_marginTop="140dp"
@@ -19,23 +19,23 @@
         app:srcCompat="@drawable/circle_gray" />
 
     <ImageView
-        android:id="@+id/image_circle_yellow"
+        android:id="@+id/imageCircleYellow"
         android:layout_width="125dp"
         android:layout_height="125dp"
         android:layout_marginTop="8dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/image_circle_red"
+        app:layout_constraintTop_toBottomOf="@id/imageCircleRed"
         app:srcCompat="@drawable/circle_gray" />
 
     <ImageView
-        android:id="@+id/image_circle_green"
+        android:id="@+id/imageCircleGreen"
         android:layout_width="125dp"
         android:layout_height="125dp"
         android:layout_marginTop="8dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/image_circle_yellow"
+        app:layout_constraintTop_toBottomOf="@+id/imageCircleYellow"
         app:srcCompat="@drawable/circle_gray" />
 
     <Button
@@ -47,6 +47,6 @@
         android:text="Изменить цвет"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/image_circle_green" />
+        app:layout_constraintTop_toBottomOf="@+id/imageCircleGreen" />
 </androidx.constraintlayout.widget.ConstraintLayout>
 
